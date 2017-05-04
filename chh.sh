@@ -1,4 +1,7 @@
 #!/bin/bash
+# Author: xnum
+# Email: xnumtw@gmail.com
+# Date: 2017/5/4
 
 
 REAL_HOME=$(cat /etc/passwd | grep $USER | awk -F ':' '{ print $6 }')
