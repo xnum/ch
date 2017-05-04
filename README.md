@@ -27,7 +27,9 @@
 ## Usage
 
 `$ chh new test` 新建一個`test`環境
+
 `$ chh load test` 載入`test`環境 把家目錄切換過去
+
 `$ chh exit` 離開它 回到你溫暖的家
 
 ## TODO
