@@ -8,7 +8,7 @@
 
 因為我很懶惰，操作Terminal喜歡切到家目錄做任何事情，久而久之在家目錄堆積了一堆檔案。這個工具幫我建立一個虛擬的家目錄，然後我就眼不見為淨了！！！
 
-此外程式還會幫你把所有在家目錄的隱藏檔例如`.vimrc .bashrc .zshrc .tmux.info`全都複製進去，所以就Terminal Tools的設定仍會是正常的
+程式還會幫你把所有在家目錄的隱藏檔例如`.vimrc .bashrc .zshrc .tmux.info`全都複製進去，所以Terminal Tools的設定仍會是正常的
 
 除非你在設定檔裡面用到`~`，lmao
 
@@ -18,8 +18,8 @@
 
 記住在過程中不要用到`~`作為你的位置，因為在程式執行後會代換掉`~`的實際位置
 
-1. 下載本程式 `chh.sh`
-2. `chmod +x chh.sh`
+1. 下載本程式 `git clone https://github.com/xnum/chh.git`
+2. `cd chh && chmod +x chh.sh`
 3. 放到一個你喜歡的地方，例如我放在`/home/num/chh`
 4. 修改你的shellrc，例如我用zsh，就修改~/.zshrc。 加上`alias chh='source /home/num/chh/chh.sh'`
 5. 重開shell或`source ~/.zshrc` 
