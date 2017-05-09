@@ -18,11 +18,11 @@
 
 記住在過程中不要用到`~`作為你的位置，因為在程式執行後會代換掉`~`的實際位置
 
-1. 下載本程式 `git clone https://github.com/xnum/chh.git`
-2. `cd chh && chmod +x chh.sh`
-3. 放到一個你喜歡的地方，例如我放在`/home/num/chh`
-4. 修改你的shellrc，例如我用zsh，就修改~/.zshrc。 加上`alias chh='source /home/num/chh/chh.sh'`
-5. 重開shell或`source ~/.zshrc` 
+目前支援`bash`和`zsh`，因為我只用這兩個
+
+1. 下載本程式 `git clone https://github.com/xnum/ch.git`
+2. `cd ch && chmod +x *.sh && ./install.sh`
+3. 重開shell `$ ch`
 
 ## Usage
 
@@ -35,5 +35,4 @@
 ## TODO
 
 - [ ] 不使用rsync強制覆蓋，用hard link節省空間
-- [ ] 自動化安裝
 - [ ] 看起來超專業的Usage和Error message

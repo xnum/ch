@@ -40,10 +40,10 @@ create_ws() {
 }
 
 usage() {
-    echo "usage: chh (new|load|exit|ls) [name]"
+    echo "usage: ch (new|load|exit|ls) [name]"
     echo "\tnew [name]"
     echo "\tload [name]"
-    echo "\rls"
+    echo "\tls"
     echo "\texit"
 }
 
@@ -77,7 +77,7 @@ exit)
     ;;
 
 ls)
-    ls -1 $WORK_DIE
+    ls -1 $WORK_DIR
     ;;
 *)
     usage
